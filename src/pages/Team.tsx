@@ -1,5 +1,7 @@
 import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
+import ibrahimImg from '@/assets/ibrahim.jpg';
+import rayaanImg from '@/assets/rayaan.jpg';
 
 const Team = () => {
   return (
@@ -25,7 +27,7 @@ const Team = () => {
                 <div className="relative mb-6">
                   <div className="w-64 h-64 mx-auto rounded-full overflow-hidden border-4 border-primary/20 shadow-soft">
                     <img 
-                      src="/lovable-uploads/b8c63778-c0b4-4899-8d46-c77a8f2b097c.png" 
+                      src={ibrahimImg} 
                       alt="Ibrahim Mohammad" 
                       className="w-full h-full object-cover"
                     />
@@ -44,7 +46,7 @@ const Team = () => {
                 <div className="relative mb-6">
                   <div className="w-64 h-64 mx-auto rounded-full overflow-hidden border-4 border-primary/20 shadow-soft">
                     <img 
-                      src="/lovable-uploads/f62505df-907d-414e-a6bf-e62582f6b849.png" 
+                      src={rayaanImg} 
                       alt="Rayaan Rahman" 
                       className="w-full h-full object-cover"
                     />
