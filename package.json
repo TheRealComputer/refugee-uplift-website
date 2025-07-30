@@ -3,11 +3,11 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://therealcomputer.github.io/uplift-website-beacon",
+  "homepage": "https://therealcomputer.github.io/refugee-uplift-website",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "build:github": "vite build --base=/uplift-website-beacon/",
+    "build:github": "vite build --base=/refugee-uplift-website/",
     "build:dev": "vite build --mode development",
     "lint": "eslint .",
     "preview": "vite preview",
