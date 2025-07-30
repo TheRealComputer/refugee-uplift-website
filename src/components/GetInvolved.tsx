@@ -94,10 +94,16 @@ const GetInvolved = () => {
                     </ul>
                   </div>
                   <div className="ml-6">
-                    <Button variant="outline">
-                      Volunteer Today
-                      <ExternalLink className="w-4 h-4 ml-2" />
-                    </Button>
+                    <a 
+                      href="https://forms.gle/nLQVVhgKoLsvsvzm9"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <Button variant="outline">
+                        Volunteer Today
+                        <ExternalLink className="w-4 h-4 ml-2" />
+                      </Button>
+                    </a>
                   </div>
                 </div>
               </CardContent>
