@@ -37,7 +37,7 @@ const Team = () => {
                   Ibrahim Mohammad
                 </h3>
                 <p className="text-muted-foreground">
-                  Student at Augusta University
+                  BS/MD Student @ Augusta University/MCG
                 </p>
               </div>
 
@@ -56,7 +56,7 @@ const Team = () => {
                   Rayaan Rahman
                 </h3>
                 <p className="text-muted-foreground">
-                  Student at Georgia Tech
+                  Neuroscience Student @ Georgia Tech
                 </p>
               </div>
             </div>
