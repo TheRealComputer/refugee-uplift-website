@@ -5,8 +5,13 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import Team from "./pages/Team";
-import Updates from "./pages/Updates";
+import CarDonations from "./pages/CarDonations";
+import OurStory from "./pages/OurStory";
 import NotFound from "./pages/NotFound";
+
+// Archived pages - kept in codebase but removed from navigation
+// import Updates from "./pages/Updates";
+// import GetInvolved from "./components/GetInvolved";
 
 const queryClient = new QueryClient();
 
@@ -18,8 +23,9 @@ const App = () => (
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Index />} />
+          <Route path="/car-donations" element={<CarDonations />} />
+          <Route path="/our-story" element={<OurStory />} />
           <Route path="/team" element={<Team />} />
-          <Route path="/updates" element={<Updates />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>

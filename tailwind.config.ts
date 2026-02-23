@@ -56,6 +56,7 @@ export default {
 				trust: 'hsl(var(--trust))',
 				warm: 'hsl(var(--warm))',
 				gentle: 'hsl(var(--gentle))',
+				surface: 'hsl(var(--surface))',
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
@@ -70,10 +71,13 @@ export default {
 			backgroundImage: {
 				'gradient-hero': 'var(--gradient-hero)',
 				'gradient-warm': 'var(--gradient-warm)',
+				'gradient-teal': 'var(--gradient-teal)',
+				'gradient-surface': 'var(--gradient-surface)',
 			},
 			boxShadow: {
 				'soft': 'var(--shadow-soft)',
 				'card': 'var(--shadow-card)',
+				'hover': 'var(--shadow-hover)',
 			},
 			borderRadius: {
 				lg: 'var(--radius)',

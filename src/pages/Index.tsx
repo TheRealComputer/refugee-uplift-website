@@ -1,7 +1,6 @@
 import Navigation from '@/components/Navigation';
 import Hero from '@/components/Hero';
 import About from '@/components/About';
-import GetInvolved from '@/components/GetInvolved';
 import Footer from '@/components/Footer';
 
 const Index = () => {
@@ -10,7 +9,6 @@ const Index = () => {
       <Navigation />
       <Hero />
       <About />
-      <GetInvolved />
       <Footer />
     </div>
   );
