@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Menu, X, Car } from 'lucide-react';
+import { Menu, X, Car, LogIn } from 'lucide-react';
 import { Link, useLocation } from 'react-router-dom';
 import logo from '@/assets/logo.png';
 
@@ -45,6 +45,17 @@ const Navigation = () => {
 
           {/* Desktop Nav */}
           <div className="hidden md:flex items-center gap-1">
+            <Link
+              to="/admin"
+              className={`flex items-center gap-1.5 px-3 py-2 text-sm font-medium rounded-lg transition-all duration-200 ${
+                isActive('/admin')
+                  ? 'bg-trust/8 text-trust'
+                  : 'text-muted-foreground hover:text-foreground hover:bg-muted'
+              }`}
+            >
+              <LogIn className="w-4 h-4" />
+              Login
+            </Link>
             {navLinks.map((item) =>
               item.highlight ? (
                 <Link
@@ -85,6 +96,17 @@ const Navigation = () => {
         {isOpen && (
           <div className="md:hidden py-3 border-t border-border animate-in slide-in-from-top-2 duration-200">
             <div className="flex flex-col gap-1 pb-2">
+              <Link
+                to="/admin"
+                className={`flex items-center gap-2 mx-1 px-4 py-3 text-sm font-medium rounded-lg transition-colors ${
+                  isActive('/admin')
+                    ? 'bg-trust/8 text-trust'
+                    : 'text-muted-foreground hover:bg-muted hover:text-foreground'
+                }`}
+              >
+                <LogIn className="w-4 h-4" />
+                Login
+              </Link>
               {navLinks.map((item) =>
                 item.highlight ? (
                   <Link

@@ -9,6 +9,10 @@ lerna-debug.log*
 
 node_modules
 dist
+.env
+.env.local
+src/config/supabase.generated.ts
+deno.lock
 dist-ssr
 *.local
 
@@ -22,3 +26,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Local Netlify folder
+.netlify
